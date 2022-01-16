@@ -1,0 +1,24 @@
+{
+  "name": "backend-streamvideo",
+  "version": "1.0.0",
+  "description": "backend Streaming ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongo"
+  ],
+  "author": "Alwan Alyafi Mulyawan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^2.0.15",
+    "thumbsupply": "^0.4.0"
+  }
+}
